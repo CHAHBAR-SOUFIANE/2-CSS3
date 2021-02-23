@@ -1,0 +1,22 @@
+#vertical-align{
+    background-color: aqua;
+  vertical-align:bottom ;
+  line-height: 200px;
+}
+#display{
+    display: inline-block;
+}
+#align-items{
+    align-items: center;
+}
+#align-content{
+align-content: space-between;
+
+
+}
+#justify-content{
+    justify-content: space-between;
+}
+#text-align{
+    text-align: center;
+}
