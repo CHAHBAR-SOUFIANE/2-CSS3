@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration:none;
+    box-shadow: 3px 6px 8px 0px;
+    transition-duration:2s;
+    transition-timing-function: ease;
+}
+a:hover{
+    margin: 40px 40px;
+}
+.link{
+    background-color: bisque;
+    height: 60px;
+    width:200px;
+    /* transition-property: width;
+    transition-duration: 2s; */
+    transition:margin 2s ,width 5s;
+    /* transition-timing-function: ease;  */
+    /* transition: all 3s; */
+}
+.link:hover{
+    margin:40px;
+   width:400px
+}
+
+p::first-line{
+    
+    background-color:aquamarine;
+    font-size: 19px;
+    font-weight: bold;
+}
+::selection{
+    color: chartreuse;
+}
+p::before{
+    content: "hello khalid ";
+}
+li{
+    list-style-type: none;
+    counter-increment: count;
+    margin: 10px;
+}
+li::before{
+    content: counter(count);
+    margin: 10px;
+    background-color: aquamarine;
+}
